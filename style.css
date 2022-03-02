@@ -23,3 +23,90 @@
     padding-top: calc(4.5 / 4 * 100%);
     border-radius: 25px;
 }
+
+.aboutsec {
+    padding-top: 40px;
+    padding-bottom: 150px;
+}
+
+
+#skills {
+    padding-bottom: 25px;
+}
+
+.skillip {
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.projects, .media, .contactme {
+    padding-top: 150px;
+}
+
+
+.label {
+    display: block;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.gap {
+    padding-bottom: 40px;
+}
+
+.contactme {
+    padding-bottom: 15px;
+}
+
+.links1:link, .links1:visited, .links1:hover, .links1:active {
+    color:black;
+    text-decoration:underline;
+}
+
+.links2:link {
+    color: black;
+    text-decoration: none;
+}
+
+.links2:visited {
+    color: blue;
+    text-decoration: none;
+}
+
+.links2:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+.links2:active{
+    color: black;
+    text-decoration:none;
+}
+
+footer {
+    padding-top: 50px;
+}
+
+#altlink {
+    padding-left: 10px;
+}
+
+@media (max-width: 768px) {
+    .info {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        }
+    }
+
+    @media (max-width: 1199px) {
+        .aboutdescrip {
+            padding-top: 20px;
+            }
+        .proj {
+            padding-bottom: 20px;
+        }
+        .label {
+            text-align: left;
+        }
+    }
